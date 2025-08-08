@@ -1,0 +1,11 @@
+[package]
+name = "newAptosproject"
+version = "0.0.1"
+authors = []
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "aptos-cli-v1.0.3"  # ✅ This version still has token_v1
+
+[addresses]
+MyModule = "0x7af9e7176438e1c71b3a06dd09a7494018d36137281ece5c96fdeb676bac431b"
